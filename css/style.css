@@ -1,0 +1,11 @@
+
+.top-bar {
+	height: 120px;
+	font-size: 12px;
+}
+
+.slider {
+	background-image: url(../img/slide-captura.jpg);
+	height: 700px;
+	background-size: cover;
+}
