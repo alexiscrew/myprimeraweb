@@ -1,11 +1,164 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#5b5b5b;
+	font-weight:400;
+	background-color:#ffffff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover,a:focus,a:visited{
+	text-decoration:none;
+	outline:none;
+}
+
+header {
+	border-top: 3px solid #1bc7ff;
+}
 
 .top-bar {
-	height: 120px;
+	height: 90px;
 	font-size: 12px;
+	padding: 20px 0;
+	margin: 15px 15px;
+}
+.top-data {
+	margin-top: 10px;
+}
+.nav-box {
+	border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
 }
 
 .slider {
 	background-image: url(../img/slide-captura.jpg);
 	height: 700px;
 	background-size: cover;
+	background-position: center;
+}
+
+
+.card-icon-box {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background-color: #1bc7ff;
+	border-radius: 35px;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.card-title-box {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+.card-text-box {
+	line-height: 24px;
+}
+
+.custom-banner span {
+	width: 70px;
+	height: 2px;
+    border-top: 2px solid #27343e;
+}
+.custom-banner p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.custom-banner a {
+	font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid;
+    color: #1bc7ff;
+}
+
+.new h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner-parallax {
+	position: relative;
+	text-align: center;
+	background-image: url(../img/banner-bg-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    padding: 110px 0;
+}
+.banner-parallax:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #21587c;
+    opacity: 0.80;
+}
+.banner-box {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+}
+.banner-box h1 {
+	font-size: 30px;
+}
+.banner-box a {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #1bc7ff;
+	padding: 15px 30px;
+	line-height: 20px;
+	letter-spacing: 1px;
+    border-radius: 3px;
+}
+.banner-box a i {
+	font-size: 15px;
+}
+
+.sec-about h6 {
+	font-size: 13px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-top: 2px solid #27343e;
+    display: inline-block;
+    padding-top: 20px;
+}
+.sec-about .new-text-a {
+	font-size: 16px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.sec-about .new-text-b {
+    line-height: 30px;
+}
+
+.slide-box {
+	text-align: center;
+}
+.slide-box h5 {
+	color: #1bc7ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.slide-box a {
+	color: #1bc7ff;
+    font-weight: 700;
 }
