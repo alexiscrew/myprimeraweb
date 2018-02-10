@@ -14,15 +14,21 @@
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
-    <!-- AFP CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
     <!-- Iconos Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700|Raleway:400,500,700" rel="stylesheet">
 
+    <!-- Owl Carousel 2.2.1 -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
+    <!-- Slider Revolution CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/layers.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+
+    <!-- AFP CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
@@ -89,11 +95,86 @@
         
       </header>
       
-      <div id="content">
+      <div class="slider-box">
+        <div class="rev_slider_wrapper">
+       
+            <!-- the ID here will be used in the inline JavaScript below to initialize the slider -->
+            <div id="rev_slider_1" class="rev_slider" data-version="5.1.6" style="display:none">
+         
+                <!-- BEGIN MAIN SLIDE LIST -->
+            <ul> 
+             
+                <!-- MINIMUM SLIDE STRUCTURE -->
+                <li data-transition="fade" class="rev-layer-custom">
+             
+                    <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+                    <img src="img/bg-slide-01.jpg" alt="Slide 01" class="rev-slidebg">
 
-        <div class="container-fluid slider">
-          
+                    <!-- Text Layer with Fade-In Transition -->
+                <div class="tp-caption sfb tp-resizeme"                 
+                            data-x="left" data-hoffset="-100"
+                            data-y="bottom" data-voffset="0"
+                            data-speed="2000"
+                            data-start="500"
+                            data-easing="easeOutExpo"
+                            data-endeasing="Power4.easeIn"
+                 
+                >
+                  <img src="img/content-slider-01.png" alt="">
+                </div>
+
+                <div class="tp-caption sfb tp-resizeme"
+                            data-x="left" data-hoffset="400"
+                            data-y="center" data-voffset="-70"
+                            data-speed="1500"
+                            data-start="1000"
+                            data-easing="easeOutExpo"
+                            data-endeasing="Power4.easeIn">
+                              <h1>DISCOVER THE SECRETS OF LIFE</h1>
+                            </div>
+
+                            <div class="tp-caption sfb tp-resizeme"
+                            data-x="left" data-hoffset="400"
+                            data-y="center" data-voffset="-20"
+                            data-speed="1500"
+                            data-start="1500"
+                            data-easing="easeOutExpo"
+                            data-endeasing="Power4.easeIn">
+                              <h2>YOUR PERSONAL LIFE COACH</h2>
+                          </div>
+                            
+                            <div class="tp-caption sfb tp-resizeme"
+                            data-x="left" data-hoffset="400"
+                            data-y="center" data-voffset="40"
+                            data-speed="1500"
+                            data-start="2000"
+                            data-easing="easeOutExpo"
+                            data-endeasing="Power4.easeIn">
+                              <h4 class="name-title">JONATHAN NEWMANN</h4>
+                            </div>
+                            
+                            <div class="tp-caption sfb tp-resizeme"
+                            data-x="left" data-hoffset="400"
+                            data-y="center" data-voffset="90"
+                            data-speed="1500"
+                            data-start="2500"
+                            data-easing="easeOutExpo"
+                            data-endeasing="Power4.easeIn">
+                              <a href="#" class="theme-btn btn-style-one">Connect With Me</a>
+                            </div>
+                <!-- END LAYER -->             
+                </li>
+             
+                <!-- MINIMUM SLIDE STRUCTURE -->
+                <li data-transition="fade">             
+                    <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+                    <img src="img/bg-slide-01.jpg" alt="Slide 02" class="rev-slidebg">             
+                </li>             
+            </ul>
+            <!-- END MAIN SLIDE LIST -->         
+            </div>         
         </div>
+      </div>
 
         <section class="container my-5">
           <div class="row">
@@ -123,7 +204,7 @@
                 </div>
               </div>              
             </article>
-            <article class="col-12 col-lg-4">
+            <article class="col-12 col-lg-4 mb-3">
               <div class="row">
                 <div class="col-3 d-flex flex-column">
                   <span class="card-icon-box m-auto d-flex flex-column">
@@ -145,7 +226,7 @@
           <a href="#">Contact Me</a>
         </div>
 
-        <section class="container mb-5 pb-5">
+        <section class="container mb-5">
           <div class="row">
             <article class="col-12 col-md-6 col-lg-4 pb-3 pb-lg-0 new">
               <img src="img/article-img-01.jpg" alt="Imagen de Articulo" class="img-fluid">
@@ -200,9 +281,26 @@
           </div>
         </section>
 
-        <section>
-          <div>
-            CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL CARROUSEL 
+        <section class="container-fluid pt-4 px-2 pb-2">
+          <div class="owl-carousel owl-custom">
+            <div>
+              <img src="img/carousel-01.jpg" alt="" class="img-fluid">
+            </div>
+            <div>
+              <img src="img/carousel-02.jpg" alt="" class="img-fluid">
+            </div>
+            <div>
+              <img src="img/carousel-03.jpg" alt="" class="img-fluid">
+            </div>
+            <div>
+              <img src="img/carousel-04.jpg" alt="" class="img-fluid">
+            </div>
+            <div>
+              <img src="img/carousel-05.jpg" alt="" class="img-fluid">
+            </div>
+            <div>
+              <img src="img/carousel-06.jpg" alt="" class="img-fluid">
+            </div>
           </div>
         </section>
 
@@ -213,7 +311,7 @@
               <h6 class="testimonial-title mb-4">CLIENT TESTIMONIALS</h6>
               <p class="testimonial-text mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ut, voluptatum omnis minima aspernatur! Id repellat ipsa voluptatee.</p>
             </div>
-            <div class="row mb-5">
+            <div class="row">
               <div class="col-12 col-lg-4">
                 <article class="test-box mb-4 mb-lg-1">
                   <div class="row">
@@ -246,7 +344,7 @@
                   </div>
                 </article>
               </div>
-              <div class="col-12 col-lg-4">
+              <div class="col-12 col-lg-4 mb-3">
                 <article class="test-box mb-4 mb-lg-1">
                   <div class="row">
                     <div class="col-3 text-center">
@@ -269,7 +367,7 @@
 
       </div>
 
-      <footer class="pb-1">
+      <footer class="pt-3">
         <div class="container pt-5">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-3 pb-5">
@@ -303,7 +401,7 @@
                 
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 pb-5">
+            <div class="col-12 col-md-6 col-lg-3 pb-3">
               <h6>GALLERY WIDGET</h6>
               <ul class="gal-footer p-0">
                 <li class="d-inline-block"><img src="img/gal01.jpg" alt="Imagen de Galeria" class="img-fluid"></li>
@@ -321,10 +419,75 @@
       </footer>
 
     </div>    
-
     
     <!-- Popper.js y Bootstrap JS -->    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- Slider Revolution core JavaScript files -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+  
+    <script type="text/javascript"> 
+      jQuery(document).ready(function() {
+   
+          /* initialize the slider based on the Slider's ID attribute */
+          jQuery('#rev_slider_1').show().revolution({
+   
+              delay: 5000,
+              /* options are 'auto', 'fullwidth' or 'fullscreen' */
+              sliderLayout: 'auto',
+
+              gridheight: [750, 600, 600, 600],
+   
+              /* basic navigation arrows and bullets */
+              navigation: {
+   
+                  arrows: {
+                      enable: true,
+                      style: 'hesperiden',
+                      hide_onleave: false
+                  },
+   
+                  bullets: {
+                      enable: false,
+                      style: 'hesperiden',
+                      hide_onleave: false,
+                      h_align: 'center',
+                      v_align: 'bottom',
+                      h_offset: 0,
+                      v_offset: 20,
+                      space: 5
+                  }
+              }
+          });
+      });
+   
+  </script>
+
+    <!-- Owl Carousel 2.2.1 -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+        autoplay: 5000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+      });
+      });      
+    </script>
   </body>
 </html>

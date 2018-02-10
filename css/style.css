@@ -66,25 +66,59 @@ header {
 	border: 1px solid #1bc7ff !important;
     float: none;
     margin: 0;
-    border-radius: 0px;
+    border-radius: 5px;
     background: #1bc7ff;
     width: 44px;
-    height: 34px;
-    padding: 2px 5px;
+    height: 38px;
+    padding: 0 5px 2px;
     cursor: pointer;
 }
 .menu-button span {
-	background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#FFF' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+	background-image: url("../img/menu-icon.svg") !important;
+	background-size: 90% 90%;
 }
 
+/** Slider Revolution **/
 
-.slider {
-	background-image: url(../img/slide-captura.jpg);
-	height: 700px;
-	background-size: cover;
-	background-position: center;
+.slider-box, {
+	width: 100%;
+	height: 750px;
+}
+.tp-bannertimer {
+	display: none !important;
+}
+.rev-layer-custom {
+	color: #27343e;
+}
+.rev-layer-custom h1 {
+	font-weight: 600;
+}
+.rev-layer-custom h2 {
+	letter-spacing: 10px;
+    font-size: 22px;
+}
+.rev-layer-custom h4 {
+	letter-spacing: 10px;
+    font-size: 14px;
+    color: #0080aa;
+}		
+.rev-layer-custom a {
+	color: #27343e;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 15px 30px;
+	background-color: #FFF;
+	box-shadow: box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.10);
+	transition: all ease-out 0.2s !important;
+}
+.rev-layer-custom a:hover, .rev-layer-custom a:focus {
+	background-color: #27343e;
+	color: #FFF;
 }
 
+/** End Slider Revolution **/
 
 .card-icon-box {
 	display: block;
@@ -208,6 +242,37 @@ header {
 .slide-box a {
 	color: #1bc7ff;
 }
+
+/*** Carousel Section ***/
+
+.owl-custom {
+	position: relative;
+	padding-top: 70px;
+}
+.owl-custom .owl-nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.owl-custom .owl-prev, .owl-custom .owl-next {
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0px 7px;
+    padding: 0px;
+    text-align: center;
+    background: #e0e0e0;
+    line-height: 32px;
+    color: #333333;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+/*** End Carousel Section ***/
 
 .testimonial {
 	background-color: #f6f6f6;
